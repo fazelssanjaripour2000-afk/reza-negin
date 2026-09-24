@@ -1046,7 +1046,7 @@ html.trading-section-active .relationship-widget{
 <script>
 'use strict';
 const $=id=>document.getElementById(id);
-const startDate=new Date('2025-02-28T00:00:00');
+const startDate=new Date('2026-09-18T00:00:00');
 const isMobile=matchMedia('(max-width: 600px)').matches;
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -1067,7 +1067,7 @@ function updateCounter(){
 }
 updateCounter();setInterval(updateCounter,60000);
 
-const events={'1403-12-10':['شروع داستان ما','❤️'],'1404-01-01':['اولین نوروز بعد از شروع ما','🌸'],'1404-03-25':['تولد رضا','🎂'],'1404-10-14':['تولد نگین','🎂'],'1404-11-25':['ولنتاین','💘']};
+const events={'1405-06-27':['تاریخ آشنایی ما','❤️'],'1404-01-01':['اولین نوروز بعد از شروع ما','🌸'],'1404-03-25':['تولد رضا','🎂'],'1404-10-14':['تولد نگین','🎂'],'1404-11-25':['ولنتاین','💘']};
 function buildCalendar(){
  const grid=$('calGrid'),startOffset=5,days=29,frag=document.createDocumentFragment();
  for(let i=0;i<startOffset;i++){const d=document.createElement('div');d.className='day empty';frag.appendChild(d)}
